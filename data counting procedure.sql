@@ -5,7 +5,7 @@ BEGIN
 	DROP TABLE IF EXISTS #TempResult
     -- Create a temporary table to store the results
 	CREATE TABLE #TempResult(
-		[table_final]		VARCHAR(200)
+	    [table_final]		VARCHAR(200)
 	    ,[date_master]		VARCHAR(50)
 	    ,[job]			VARCHAR(200)
 	    ,[id]			VARCHAR(50)
