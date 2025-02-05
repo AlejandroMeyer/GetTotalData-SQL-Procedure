@@ -32,7 +32,7 @@ BEGIN
     -- Declare a cursor to iterate through the existing table
     DECLARE cursorTable CURSOR FOR
         SELECT [table_final], [date_master], [job], [id], [type_catalog], [source_information], [server_id]
-        FROM [Test].[dbo].[extraccions_ppc];
+        FROM [Test].[dbo].[extraccions_test];
 
     -- Open the cursor
     OPEN cursorTable;
