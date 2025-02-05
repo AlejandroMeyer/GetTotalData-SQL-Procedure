@@ -22,4 +22,4 @@ This project contains an SQL stored procedure named `GetTotals`, which is design
 ## Usage
 To execute the stored procedure, use the following command in SQL Server:
 ```sql
-EXEC GetTotals;
+EXEC GetTotalData;
