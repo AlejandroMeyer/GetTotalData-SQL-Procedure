@@ -2,18 +2,18 @@ CREATE PROCEDURE GetTotalData
 AS
 BEGIN
 	
-	DROP TABLE IF EXISTS #TempResult
-    -- Create a temporary table to store the results
-	CREATE TABLE #TempResult(
-		[table_final]			VARCHAR(200)
-	    ,[date_master]			VARCHAR(50)
-	    ,[job]					VARCHAR(200)
-	    ,[id]					VARCHAR(50)
-	    ,[type_catalog]			VARCHAR(15)
-	    ,[source_information]	VARCHAR(500)
-	    ,[server_id]			VARCHAR(30)
-	    ,[total_data]			INT
-	);
+   DROP TABLE IF EXISTS #TempResult
+   -- Create a temporary table to store the results
+   CREATE TABLE #TempResult(
+	[table_final]		VARCHAR(200)
+	,[date_master]		VARCHAR(50)
+	,[job]			VARCHAR(200)
+	,[id]			VARCHAR(50)
+	,[type_catalog]		VARCHAR(15)
+	,[source_information]	VARCHAR(500)
+	,[server_id]		VARCHAR(30)
+	,[total_data]		INT
+    );
 
     -- Declare variables
     DECLARE @TableFinal VARCHAR(200),
