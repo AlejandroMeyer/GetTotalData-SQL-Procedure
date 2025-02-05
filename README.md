@@ -1,4 +1,4 @@
-# GetTotals SQL Procedure
+# GetTotalData SQL Procedure
 
 ## About
 This project contains an SQL stored procedure named `GetTotals`, which is designed to extract and count records from a specified table based on a date filter. The procedure dynamically constructs SQL queries to count records for each table and stores the results in a temporary table before returning the final dataset.
