@@ -16,14 +16,14 @@ BEGIN
     );
 
     -- Declare variables
-    DECLARE @TableFinal VARCHAR(200),
-            @DateMaster VARCHAR(50),
-            @Job VARCHAR(200),
-            @Id VARCHAR(50),
-            @TypeCatalog VARCHAR(15),
-            @SourceInformation VARCHAR(500),
-            @ServerId VARCHAR(30),
-            @TotalData INT;
+    DECLARE @TableFinal 	VARCHAR(200),
+            @DateMaster 	VARCHAR(50),
+            @Job 		VARCHAR(200),
+            @Id 		VARCHAR(50),
+            @TypeCatalog 	VARCHAR(15),
+            @SourceInformation 	VARCHAR(500),
+            @ServerId 		VARCHAR(30),
+            @TotalData 		INT;
 
     -- Assign the current date to the @RowDate variable
     DECLARE @RowDate DATE;
